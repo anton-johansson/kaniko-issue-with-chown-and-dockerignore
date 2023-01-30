@@ -11,7 +11,7 @@ As you can see in the `.dockerignore`, I ignore everything except certain files.
 docker build --no-cache --tag kaniko-issue .
 ```
 
-As you can see by the `ls`, the directory `my-directory` is owned by `node`:
+As you can see by the `ls`, the directory `my-directory` is owned by `www-data`:
 
 ```
 ➜ docker build --no-cache --tag kaniko-issue .
